@@ -8,6 +8,7 @@ const ExpenseItem = (props) => {
   // useState is a React hook -> must only be called inside component functions
   // title: pointer to managed value, here at props.title
   // setTitle: function to set new title
+  // arg in useState (props.title) is the initial value
 
   // const [title, setTitle] = useState(props.title);
   // console.log('ExpenseItem evaluated by React!');
